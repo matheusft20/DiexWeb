@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+header, footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  transition: color 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+  color: #61dafb;
+}
+
+/* Outros estilos globais */

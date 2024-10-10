@@ -1,0 +1,94 @@
+/* src/pages/Home.css */
+
+.home-container {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+h1:hover {
+  color: #FFD700; /* Mudança de cor no hover */
+}
+
+.home-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #555;
+}
+
+/* Seção de Serviços */
+.services-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  color: #333;
+  font-size: 22px;
+}
+
+.service-card p {
+  color: #666;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Seção de Tecnologias */
+.technologies-section {
+  padding: 50px 0;
+}
+
+.tech-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tech-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tech-card h3 {
+  color: #333;
+  font-size: 22px;
+}
+
+.tech-card p {
+  color: #666;
+  font-size: 16px;
+  margin-top: 10px;
+}
